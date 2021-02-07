@@ -1,0 +1,11 @@
+.Upcoming{
+    font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .Upcoming-content{
+    flex: 1;
+    overflow-y: auto;
+    background: #F2F2F2;
+  }
+}

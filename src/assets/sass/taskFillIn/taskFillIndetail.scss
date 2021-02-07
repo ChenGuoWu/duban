@@ -1,0 +1,31 @@
+.fillin{
+    padding: 10px;
+    font-size: 14px;
+    background: white;
+    >div{
+        margin: 20px 0;
+    }
+    .fillin_title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >div:first-child{
+            font-weight: bold;
+        }
+        >div:last-child{
+            color: #2385ff;
+        }
+    }
+    .fillin_select{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >div:last-child{
+            color: gray;
+        }
+    }
+}
+.van-cell{
+    padding: 0;
+    padding-top: 5px;
+}

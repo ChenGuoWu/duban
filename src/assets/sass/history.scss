@@ -1,0 +1,54 @@
+.history{
+    padding:20px 10px;
+
+    background: white;
+    .history_all{
+        display: flex;
+        justify-content: space-between;
+       
+        .history_left{
+            width: 5%;
+            overflow: hidden;
+            position: relative;
+            .history_yuan{
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                border: 3px solid #1989fa;
+            }
+            .history_img{
+               position: absolute;
+               left: 4px;
+               top: 15px;
+               height: 100%;
+               img{
+                min-height: 90px;
+                width: 2px;
+               }
+            }
+        }
+        .history_right,.history_right_select{
+            width: 92%;
+            font-size: 12px;
+            .history_right_time{
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+            .history_right_content{
+                margin: 5px 0;
+                color: gray;
+            }
+            .history_right_content:last-child{
+                margin-bottom: 15px;
+            }
+        }
+        .history_right_select{
+         
+            font-size: 15px;
+            .history_right_content{
+                font-size: 12px;
+            }
+           
+        }
+    }
+}

@@ -1,0 +1,7 @@
+.dialog {
+    padding: 10px;
+  }
+  ::v-deep .van-dialog__content{
+    max-height: 70vh;
+    overflow: auto;
+  }

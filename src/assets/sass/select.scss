@@ -1,0 +1,44 @@
+
+  .select {
+    
+    .select_lists{
+      
+      .select_lists_content{
+        padding:0 10px;
+        background: white;
+        font-size: 14px;
+        overflow: hidden;
+        .select_lists_content_title{
+          font-weight: bold;
+          margin: 20px 0;
+          position: relative;
+          img{
+            position: absolute;
+            right: 0;
+            bottom: -5px;
+            width: 60px;
+          }
+        }
+       .select_lists_content_show{
+         display: flex;
+        
+         align-items: center;
+         height: 20px;
+         line-height: 20px;
+         .select_lists_content_type{
+            margin-left: 70px;
+         }
+        
+       }
+       .select_lists_content_time{
+         margin: 10px 0;
+       }
+       .select_lists_content_split{
+         height: 1px;
+         background: 		#EBEBEB;
+       }
+      }
+    }
+    
+  }
+
